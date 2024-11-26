@@ -13,10 +13,11 @@
 import Header from "./component/Header";
 import Footer from "./component/Footer";
 import TodoCard from "./component/TodoCard";
-import CounterState from "./component/ClassCounter";
-import GreetingClass from "./component/PropsClass";
-import TimerMethods from "./component/Timer2";
-import ButtonHandleClick from "./component/Button";
+import CounterState from "./component/class/ClassCounter";
+import GreetingClass from "./component/class/PropsClass";
+import TimerMethods from "./component/class/Timer2";
+import ButtonHandleClick from "./component/class/Button";
+import GreetingsProps from "./component/class/Combined";
 // import { Button } from "@nextui-org/react";
 
 function App() {
@@ -29,6 +30,7 @@ function App() {
     <>
       <Header />
       <GreetingClass name="Alice" />
+      <GreetingsProps name="Marco " />
       <TimerMethods />
       <TodoCard />
       <TodoCard />
