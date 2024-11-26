@@ -1,0 +1,2 @@
+// menggabungkan state dengan props
+

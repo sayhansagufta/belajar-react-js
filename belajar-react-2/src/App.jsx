@@ -2,14 +2,21 @@
 // import reactLogo from "./assets/react.svg";
 // import viteLogo from "/vite.svg";
 // import Greeting from "./components/Greeting";
-import GreetingFunction from "./component/GreetingFunction";
+// import GreetingFunction from "./component/GreetingFunction";
 
-import "./App.css";
+// import "./App.css";
 // import { useState } from "react";
-import Counter from "./component/Counter";
-import Timer from "./component/Timer";
-import Button from "./component/EventHandling";
-import Counter2 from "./component/Counter2";
+// import Counter from "./component/Counter";
+// import Timer from "./component/Timer";
+// import Button from "./component/EventHandling";
+// import Counter2 from "./component/Counter2";
+import Header from "./component/Header";
+import Footer from "./component/Footer";
+import TodoCard from "./component/TodoCard";
+import CounterState from "./component/ClassCounter";
+import GreetingClass from "./component/PropsClass";
+import TimerMethods from "./component/Timer2";
+import ButtonHandleClick from "./component/Button";
 // import { Button } from "@nextui-org/react";
 
 function App() {
@@ -20,7 +27,17 @@ function App() {
 
   return (
     <>
-      <Counter2 />
+      <Header />
+      <GreetingClass name="Alice" />
+      <TimerMethods />
+      <TodoCard />
+      <TodoCard />
+      <TodoCard />
+      <CounterState />
+      <ButtonHandleClick />
+      <Footer />
+
+      {/* <Counter2 /> */}
       {/* <GreetingFunction name="Shayhan Sagufta" />
       <h1>{isLoggedIn ? "Welcome!" : "Please log in."}</h1>
       <Timer />
